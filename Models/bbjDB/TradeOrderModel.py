@@ -23,7 +23,7 @@ class TradeOrderModel(BaseModel):
         'balance_e2',                                                            # 建仓前余额，单位：分
         'ex_balance_e2',                                                         # 下单前体验金余额
         'fee_e6',                                                                # 手续费率 单位:万分之一
-        'open_amount_e2',                                                        # 建仓金额(本金) 单位:分
+        'open_amount_e2',                                                        # 建仓金额(本金) 单位:分 (开仓保证金)
         'open_fee_e2',                                                           # 建仓手续费 单位:分
         'coupon_type',                                                           # 类型：1:U币 2:券 3.赠金 4.体验金
         'coupon_amount_e2',                                                      # 券面额(BTC数量) 单位:0.01BTC

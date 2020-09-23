@@ -10,7 +10,7 @@ class Register(BaseScript):
 
     def run(self):
         param = {
-            'account': '18652979331',
+            'account': '186529793313',
             'password': '18652979331',
             'code': '1412',
         }

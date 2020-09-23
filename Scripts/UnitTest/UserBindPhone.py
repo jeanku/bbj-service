@@ -10,7 +10,7 @@ class UserBindPhone(BaseScript):
 
     def run(self):
         param = {
-            'account': '18652979336',
+            'account': '186529793361',
             'password': '18652979331',
         }
         data = app('request').post(app('env').DOMAIN + self.uri, params=param, header={}).json()

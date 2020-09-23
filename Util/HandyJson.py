@@ -31,6 +31,9 @@ class HandyJson(object):
     def __getattr__(self, item):
         return self.get(item)
 
+    def __str__(self):
+        return self.__data.__str__();
+
 
 
 if __name__ == '__main__':

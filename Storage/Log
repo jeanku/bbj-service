@@ -2305,3 +2305,22 @@ ModuleNotFoundError: No module named 'Scripts.UnitTest.UserAuthList.UserAuthList
 2020-09-21 23:31:22,681 【INFO】/user/get-google-authenticator: success, return:{'retCode': 1000010, 'retMsg': '登录超时，请重新登录', 'retData': {}, 'retHtml': ''}
 2020-09-21 23:31:22,920 【INFO】/user/update: success, return:{'retCode': 1000010, 'retMsg': '登录超时，请重新登录', 'retData': {}, 'retHtml': ''}
 2020-09-21 23:31:23,158 【INFO】/user/bind-email: success, return:{'retCode': 1000010, 'retMsg': '登录超时，请重新登录', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:27,943 【INFO】/user/auth-list: success, return:{'retCode': 1000010, 'retMsg': '登录超时，请重新登录', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:28,181 【INFO】/user/set-password: success, return:{'retCode': 1000010, 'retMsg': '登录超时，请重新登录', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:28,436 【INFO】/common/check-auth: success, return:{'retCode': 19009, 'retMsg': '手机验证码无效', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:28,681 【INFO】/common/register: success, return:{'retCode': 19016, 'retMsg': '密码为8到20位', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:29,224 【INFO】/user/reset-password: success, return:{'retCode': 1000010, 'retMsg': '登录超时，请重新登录', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:29,717 【INFO】/user/bind-phone: success, return:{'retCode': 1000010, 'retMsg': '登录超时，请重新登录', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:30,164 【INFO】/user/bind-google-authenticator: success, return:{'retCode': 1000010, 'retMsg': '登录超时，请重新登录', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:30,461 【INFO】/user/switch-auth: success, return:{'retCode': 1000010, 'retMsg': '登录超时，请重新登录', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:30,700 【INFO】/common/check-code: success, return:{'retCode': 999998, 'retMsg': '请求参数错误:type', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:31,150 【ERROR】/common/auth-list1: error, return:{'retCode': 100001, 'retMsg': '您请求的页面不存在！', 'retData': {'code': 404}, 'retHtml': ''}
+2020-09-22 13:35:31,376 【INFO】/user/account: success, return:{'retCode': 1000010, 'retMsg': '登录超时，请重新登录', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:31,614 【INFO】/common/forget-password: success, return:{'retCode': 999998, 'retMsg': '请求参数错误:_token', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:31,848 【INFO】/site/send-sms: success, return:{'retCode': 999998, 'retMsg': '请求参数错误:mobile', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:32,086 【INFO】/user/check-password: success, return:{'retCode': 1000010, 'retMsg': '登录超时，请重新登录', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:32,332 【INFO】/common/login-check: success, return:{'retCode': 999998, 'retMsg': '请求参数错误:_token', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:32,598 【INFO】/common/login: success, return:{'retCode': 19013, 'retMsg': '登录密码错误', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:32,829 【INFO】/user/get-google-authenticator: success, return:{'retCode': 1000010, 'retMsg': '登录超时，请重新登录', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:33,061 【INFO】/user/update: success, return:{'retCode': 1000010, 'retMsg': '登录超时，请重新登录', 'retData': {}, 'retHtml': ''}
+2020-09-22 13:35:33,297 【INFO】/user/bind-email: success, return:{'retCode': 1000010, 'retMsg': '登录超时，请重新登录', 'retData': {}, 'retHtml': ''}

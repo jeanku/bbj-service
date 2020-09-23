@@ -3,6 +3,8 @@
 
 from Scripts.BaseScript import BaseScript
 from simutil.App import app
+from Scripts.UnitTest.LoginCheck import LoginCheck
+from Util.HandyJson import HandyJson
 
 
 class UserAuthList(BaseScript):
@@ -10,12 +12,16 @@ class UserAuthList(BaseScript):
 
     def run(self):
         param = {
-            'account': '18652979336',
-            'password': '18652979331',
+            'type': 'draw',
         }
-        data = app('request').post(app('env').DOMAIN + self.uri, params=param, header={}).json()
-        code = data.get('retCode', None)
-        if code is not None and data.get('retData', {}).get('code', 0) != 404:
+        header = {
+            'token': LoginCheck().run()
+        }
+
+        data = app('request').post(app('env').DOMAIN + self.uri, params=param, header=header).json()
+        data = HandyJson(data)
+        code = data.get('retCode', 0)
+        if code == 0:
             app('log').info(self.uri + ': success, return:' + data.__str__())
         else:
             app('log').error(self.uri + ': error, return:' + data.__str__())
